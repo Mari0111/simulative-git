@@ -1,0 +1,9 @@
+alias l="ls -Av --group-directories-first --color=auto"
+alias ll="ls -lApth --color=auto"
+alias fav="cd /home/mari/draft; nautilus ."
+alias cd='cd "$@"; l'
+alias cdf='cd "$(dirname "$(fzf)")"'
+
+ln .env /service1
+ln .env /service2
+ln .env /service3
