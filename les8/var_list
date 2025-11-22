@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+
