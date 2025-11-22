@@ -1,0 +1,2 @@
+read -d '' varm
+echo -e "$(echo "$varm" | head -n1)\n$(echo "$varm" | tail -n1)"

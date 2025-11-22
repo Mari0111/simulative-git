@@ -1,0 +1,11 @@
+#7.1.2
+bash suppress whatis $(ls -A)
+
+#7.2.2
+ash outlog cat file_exists file_not_exists
+
+#7.4
+ls -t | tail -n +31 | bash ../suppress xargs -r rm
+
+
+
