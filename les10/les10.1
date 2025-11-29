@@ -1,0 +1,9 @@
+conservation_path="../conservation_mode"
+conservation_mode=$(cat $conservation_path)
+if [[ $conservation_mode == 0 ]]; then
+	echo "1" > $conservation_path
+	echo "battery conservation mode enabled"
+else
+	echo "0" > $conservation_path
+	echo "battery conservation mode disabled"
+fi
